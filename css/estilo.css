@@ -1,3 +1,13 @@
 @charset "UTF=8";
 @import "reset.css";
 @import "cores.css";
+
+@font-face { 
+    font-family: Monsieur;
+    src: url(fontes/Monsieur_La_Doulaise/MonsieurLaDoulaise-Regular.ttf);
+}
+body{
+    color: var(--platinum);
+    background-color: rgb(71, 71, 71);
+    font-family:Monsieur;
+}
